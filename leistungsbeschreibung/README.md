@@ -55,8 +55,10 @@ Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.Security
 
 ## POS Archiv
 
-Das POS Archiv speichert die von der fiskaltrust.Middleware übergebenen Daten über einen Zeitraum von 12 Jahren. Über das fiskaltrust.Portal kann auf die Daten zugegriffen werden.
+Das POS Archiv speichert die von der fiskaltrust.Middleware übergebenen Daten revisionsicher. Über das fiskaltrust.Portal kann auf die Daten zugegriffen werden. Der automatisierte Export umfasst nicht nur die Daten der übermittelten Belege, sondern auch das Journal für die signierten Transaktionen. Die Daten stehen dem Kassenbetreiber in der fiskaltrust.Cloud zur Verfügung genauso wie der Abruf der Exporte im DFKA, DSFinV-K & TSE-TAR Format.
+Beim Erstellen eines Monatsabschuss wird eine Prüfung zur Konsistenz der Daten durchgeführt und eine die Exportdatei erstellt, die ebenfalls in der fiskaltrust.Cloud gespeichert wird.
 
-Bei Erstellen eines Monatsabschuss wird eine Prüfung zur Konsistenz der Daten durchgeführt und eine zusätzliche Exportdatei erstellt, die ebenfalls in der fiskaltrust.Cloud gespeichert wird.
+Unser bewährtes Subscription Management im ft.portal.sorgt für eine reibungslose Aktivierung durch Entitlements (Ansprüchen) durch einen KassenHändler an einen KassenBetreiber 
 
-[PDF Download der Leistungsbeschreibung](media/leistungsbeschreibung.pdf)
+
+
